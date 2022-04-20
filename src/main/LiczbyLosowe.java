@@ -1,0 +1,27 @@
+package main;
+
+import java.util.Random;
+
+public class LiczbyLosowe {
+    public static void main(String[] args) {
+        Random r = new Random();
+
+        int a = r.nextInt();
+        System.out.println(a);
+
+        int b = r.nextInt(11);
+        System.out.println(b);
+
+        int c = r.nextInt(10) + 1;
+        System.out.println(c);
+
+        float e = r.nextFloat();
+        System.out.println(e);
+
+        double f = r.nextDouble();
+        System.out.println(f);
+
+        boolean g = r.nextBoolean();
+        System.out.println(g);
+    }
+}
